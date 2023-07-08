@@ -1,8 +1,18 @@
+:root {
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --white: #FFFFFF;
+    --cloud: #F4F4FD;
+    --slate: #434455;
+    --cornflower: #E7E9FC;
+}
+
 body {
     font-family: 'Roboto',
         sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--slate);
+    background-color: var(--white);
 }
 
 .link {
@@ -15,7 +25,6 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -32,10 +41,8 @@ body {
 
 .link-list {
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
     letter-spacing: 0.02em;
     color: var(--navyblue);
 }
@@ -43,7 +50,6 @@ body {
 .link-list:hover,
 .link-list:focus {
     color: var(--ocean);
-    text-decoration: underline;
 }
 
 .contacts {
@@ -51,9 +57,7 @@ body {
 }
 
 .contact {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -66,14 +70,7 @@ body {
 }
 
 
-:root {
-    --navyblue: #2E2F42;
-    --iris: #4D5AE5;
-    --ocean: #404BBF;
-    --white: #FFF;
-    --cloud: #F4F4FD;
-    --slate: #434455;
-}
+
 
 /* index main */
 
@@ -86,20 +83,17 @@ body {
     color: var(--white);
     text-align: center;
     font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 
 .order-service-button {
     background-color: var(--iris);
     color: var(--white);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
     font-family: 'Roboto',
         sans-serif;
@@ -116,8 +110,6 @@ body {
     color: var(--navyblue);
     text-align: center;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -126,7 +118,6 @@ body {
 .title-three {
     color: var(--navyblue);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -143,7 +134,7 @@ body {
 }
 
 .people {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 .section-four-text {
@@ -163,7 +154,6 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -186,26 +176,24 @@ body {
     font-family: "Roboto",
         sans-serif;
     background-color: var(--cloud);
-    border: 1px solid var(--cornflower, #E7E9FC);
+    border: 1px solid var(--cornflower);
     color: var(--iris);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
 .filtr-button:hover,
 .filtr-button:focus {
     background-color: var(--ocean);
-    color: #FFF;
+    color: var(--white);
 }
 
 .title-element {
     color: var(--navyblue);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;

@@ -1,0 +1,237 @@
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: var(--navyblue);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* header */
+
+.logo-header {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.167;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-color {
+    color: var(--iris);
+}
+
+.page-nav .nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.page-nav .nav-link:hover,
+.page-nav .nav-link:focus {
+    color: var(--ocean);
+    text-decoration: underline;
+}
+
+.mail {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--ocean);
+}
+
+.telephon {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.telephon:hover,
+.telephon:focus {
+    color: var(--ocean);
+}
+
+:root {
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --white: #FFF;
+    --cloud: #F4F4FD;
+}
+
+/* index main */
+
+.section-one-index {
+    background: var(--navyblue);
+}
+
+.section-one-index>h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.section-one-index>button {
+    border-radius: 4px;
+    background-color: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    width: 169px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.section-one-index>button:hover,
+.section-one-index>button:focus {
+    background-color: var(--ocean);
+}
+
+
+
+h2 {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.111;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.our-advantages>h3 {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.our-advantages>p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.our-advantages-leveling {
+    width: 264px;
+}
+
+.our-team {
+    width: 264px;
+}
+
+.our-team>h3 {
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.our-team>p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--navyblue);
+}
+
+.logo-footer {
+    color: var(--cloud);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.167;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer>p {
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    width: 264px;
+    text-align: left;
+}
+
+/* Portfolio */
+
+.section-one-portfolio button {
+    background-color: var(--cloud);
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    color: var(--iris);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    width: 116px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.section-one-portfolio button:hover,
+.section-one-portfolio button:focus {
+    background-color: var(--ocean);
+    color: #FFF;
+}
+
+.our-portfolio>h3 {
+    color: var(--navyblue);
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.our-team>p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}

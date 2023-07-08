@@ -120,7 +120,7 @@ body {
 }
 
 .order-service-button:hover,
-.sorder-service-button:focus {
+.order-service-button:focus {
     background-color: var(--ocean);
 }
 

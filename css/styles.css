@@ -50,7 +50,7 @@ body {
     font-style: normal;
 }
 
-.mail {
+.contact {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -60,25 +60,11 @@ body {
     color: var(--slate);
 }
 
-.mail:hover,
-.mail:focus {
+.contact:hover,
+.contact:focus {
     color: var(--ocean);
 }
 
-.telephon {
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
-
-.telephon:hover,
-.telephon:focus {
-    color: var(--ocean);
-}
 
 :root {
     --navyblue: #2E2F42;
